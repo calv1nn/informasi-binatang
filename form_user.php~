@@ -1,0 +1,15 @@
+<label for="id">id</label>
+<input type="hidden" value="<?php echo $$binatang_id ?>" name="binatang_id">
+<input id="id" name="id" type="text" size="50" value="<?php echo $id ?>"/>
+<br/>
+<label for="nama">nama</label>
+<input id="nama" name="nama" type="text" size="50" value="<?php echo $nama ?>"/>
+<br/>
+<label for="ordo">ordo</label>
+<input id="ordo" name="ordo" type="text" size="50" value="<?php echo $ordo ?>"/>
+<br/>
+<label for="habitat">habitat</label>
+<input id="habitat" name="habitat" type="text" size="50" value="<?php echo $habitat ?>"/>
+<br/>			
+<input type="button" value="Add" name="action" onClick="eval('doAdd()')" />
+<input type="button" value="Update" name="action" onClick="doUpdate();" />
